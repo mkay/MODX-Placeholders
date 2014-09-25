@@ -1,7 +1,7 @@
 # System Setting
 [[++site_url]]
 [[++base_url]]
-[[++start_page]]
+[[++site_start]]
 [[++error_page]]
 [[++cultureKey]]
 # Resource Fields
