@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[[[+longtitle]]]]>
+	</content>
+	<tabTrigger>+</tabTrigger>
+	<description>[[+longtitle]]</description>
+</snippet>
+

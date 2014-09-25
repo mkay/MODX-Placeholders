@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[[[*published]]]]>
+	</content>
+	<tabTrigger>*</tabTrigger>
+	<description>[[*published]]</description>
+</snippet>
+

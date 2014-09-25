@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[[[*editedby]]]]>
+	</content>
+	<tabTrigger>*</tabTrigger>
+	<description>[[*editedby]]</description>
+</snippet>
+

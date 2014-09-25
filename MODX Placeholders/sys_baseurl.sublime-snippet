@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[[[++base_url]]]]>
+	</content>
+	<tabTrigger>-</tabTrigger>
+	<description>[[++base_url]]</description>
+</snippet>
+

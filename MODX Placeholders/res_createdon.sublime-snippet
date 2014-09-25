@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[[[*createdon]]]]>
+	</content>
+	<tabTrigger>*</tabTrigger>
+	<description>[[*createdon]]</description>
+</snippet>
+

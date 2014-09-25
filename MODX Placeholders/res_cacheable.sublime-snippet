@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[[[*cacheable]]]]>
+	</content>
+	<tabTrigger>*</tabTrigger>
+	<description>[[*cacheable]]</description>
+</snippet>
+

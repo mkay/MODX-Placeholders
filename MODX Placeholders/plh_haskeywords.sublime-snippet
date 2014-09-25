@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[[[+haskeywords]]]]>
+	</content>
+	<tabTrigger>+</tabTrigger>
+	<description>[[+haskeywords]]</description>
+</snippet>
+
