@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[[[+menuindex]]]]>
+	</content>
+	<tabTrigger>+</tabTrigger>
+	<description>[[+menuindex]]</description>
+</snippet>

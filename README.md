@@ -21,6 +21,7 @@ ___
 
 ``- and TAB`` for a list of ``[[++system_settings]]``
 
+``% and TAB`` for a list of ``[[%lexicon_strings]]``
 ___
 
 ### Generate your own: (OSX / Linux)

@@ -1,8 +1,0 @@
-<snippet>
-	<content>
-		<![CDATA[[[+isfolder]]]]>
-	</content>
-	<tabTrigger>+</tabTrigger>
-	<description>[[+isfolder]]</description>
-</snippet>
-

@@ -17,32 +17,39 @@
 # Generate your own: (OSX / Linux)
 # you can add you own placeholders by simply adding them to /src/placeholder_list.txt
 # and running create.sh. This will generate a new set of snippets. 
-#
 # ####################################
+MKDIR=$(command -v mkdir)								# check for/locate mkdir
 
 while read -u 10 line; do
-	[[ $line = \#* ]] && continue # ignore lines with #comments
+	[[ $line = \#* ]] && continue 						# ignore lines with #comments
 
 	basename=$( echo $line | sed 's/[^a-zA-Z0-9]//g' )
 
-	if [[ $line == *[[++* ]] 	# System Settings
+	if [[ $line == *[[++* ]] 							# System Settings
 		then
-		prefix="sys"
 		trigger="-"
+		dir="system_settings"
 
-	elif [[ $line == *[[\** ]]	# Resource Fields
+	elif [[ $line == *[[\** ]]							# Resource Fields
 		then
-		prefix="res"
 		trigger="*"
+		dir="resource_fields"
 
-	elif [[ $line == *[[+* ]]	# Resource Field Placeholders
+	elif [[ $line == *[[+* ]]							# Resource Field Placeholders
 		then
-		prefix="plh"
 		trigger="+"
+		dir="placeholders"
+
+	elif [[ $line == *[[%* ]]							# Lexicon Strings
+		then
+		trigger="%"
+		dir="lexicon_strings"
 
 	else
 		exit 1
 	fi
+
+	$MKDIR -p ../MODX\ Placeholders/${dir}				# Create directory if it doesn't exist
 
 	echo -e "<snippet>
 	<content>
@@ -50,9 +57,8 @@ while read -u 10 line; do
 	</content>
 	<tabTrigger>$trigger</tabTrigger>
 	<description>$line</description>
-</snippet>
-" > ../MODX\ Placeholders/${prefix}_${basename}.sublime-snippet
+</snippet>" > ../MODX\ Placeholders/${dir}/${basename}.sublime-snippet
 
-	unset $prefix
+	unset dir
 
 done 10<placeholder_list.txt

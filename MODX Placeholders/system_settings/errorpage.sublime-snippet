@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[[[++error_page]]]]>
+	</content>
+	<tabTrigger>-</tabTrigger>
+	<description>[[++error_page]]</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[[[%example_string? &topic=`_custom`]]]]>
+	</content>
+	<tabTrigger>%</tabTrigger>
+	<description>[[%example_string? &topic=`_custom`]]</description>
+</snippet>

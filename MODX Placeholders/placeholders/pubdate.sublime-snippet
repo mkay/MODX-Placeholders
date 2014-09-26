@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[[[+pub_date]]]]>
+	</content>
+	<tabTrigger>+</tabTrigger>
+	<description>[[+pub_date]]</description>
+</snippet>

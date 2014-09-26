@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[[[%$0? &topic=`_custom`]]]]>
+	</content>
+	<tabTrigger>%</tabTrigger>
+	<description>custom [[%lexicon_string? &topic=`_custom`]]</description>
+</snippet>

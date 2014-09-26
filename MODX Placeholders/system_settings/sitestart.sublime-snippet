@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[[[++site_start]]]]>
+	</content>
+	<tabTrigger>-</tabTrigger>
+	<description>[[++site_start]]</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[[[*deletedon]]]]>
+	</content>
+	<tabTrigger>*</tabTrigger>
+	<description>[[*deletedon]]</description>
+</snippet>

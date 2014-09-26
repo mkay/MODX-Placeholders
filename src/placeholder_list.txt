@@ -76,3 +76,6 @@
 [[+privatemgr]]
 [[+content_dispo]]
 [[+hidemenu]]
+# Lexicon Strings
+[[%example_string]]
+[[%example_string? &topic=`_custom`]]

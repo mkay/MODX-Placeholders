@@ -1,8 +1,0 @@
-<snippet>
-	<content>
-		<![CDATA[[[++cultureKey]]]]>
-	</content>
-	<tabTrigger>-</tabTrigger>
-	<description>[[++cultureKey]]</description>
-</snippet>
-

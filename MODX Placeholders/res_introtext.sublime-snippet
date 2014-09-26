@@ -1,8 +1,0 @@
-<snippet>
-	<content>
-		<![CDATA[[[*introtext]]]]>
-	</content>
-	<tabTrigger>*</tabTrigger>
-	<description>[[*introtext]]</description>
-</snippet>
-
