@@ -13,6 +13,7 @@
 # * and TAB for a list of [[*resource_fields]]
 # + and TAB for a list of [[+resource_field_placeholders]]
 # - and TAB for a list of [[++system_settings]]
+# % and TAB for a list of [[%lexicon_strings]]
 # 
 # Generate your own: (OSX / Linux)
 # you can add you own placeholders by simply adding them to /src/placeholder_list.txt
