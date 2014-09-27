@@ -17,7 +17,7 @@
 # 
 # Generate your own: (OSX / Linux)
 # you can add you own placeholders by simply adding them to /src/placeholder_list.txt
-# and running create.sh. This will generate a new set of snippets. 
+# and running create.sh in /src. This will generate a new set of snippets. 
 # ####################################
 MKDIR=$(command -v mkdir)								# check for/locate mkdir
 
@@ -50,7 +50,7 @@ while read -u 10 line; do
 		exit 1
 	fi
 
-	$MKDIR -p ../MODX\ Placeholders/${dir}				# Create directory if it doesn't exist
+	$MKDIR -p ../${dir}									# Create directory if it doesn't exist
 
 	echo -e "<snippet>
 	<content>
@@ -58,7 +58,7 @@ while read -u 10 line; do
 	</content>
 	<tabTrigger>$trigger</tabTrigger>
 	<description>$line</description>
-</snippet>" > ../MODX\ Placeholders/${dir}/${basename}.sublime-snippet
+</snippet>" > ../${dir}/${basename}.sublime-snippet
 
 	unset dir
 

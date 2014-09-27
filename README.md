@@ -17,7 +17,7 @@ ___
 
 ``* and TAB`` for a list of ``[[*resource_fields]]``
 
-``+ and TAB`` for a list of ``[[+resource_field_placeholders]]``
+``+ and TAB`` for a list of ``[[+placeholders]]``
 
 ``- and TAB`` for a list of ``[[++system_settings]]``
 
@@ -25,6 +25,6 @@ ___
 ___
 
 ### Generate your own: (OSX / Linux)
-you can add you own placeholders by simply adding them to *"/src/placeholder_list.txt"* and running create.sh. 
+You can add you own placeholders by simply adding them to *"/src/placeholder_list.txt"*.
 
-This will generate a new set of snippets in *MODX Placeholders*.
+Run``create.sh`` in *"/src"* and the script will generate a new set of snippets.

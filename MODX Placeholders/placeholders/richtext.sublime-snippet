@@ -1,7 +1,0 @@
-<snippet>
-	<content>
-		<![CDATA[[[+richtext]]]]>
-	</content>
-	<tabTrigger>+</tabTrigger>
-	<description>[[+richtext]]</description>
-</snippet>
