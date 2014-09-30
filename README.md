@@ -7,9 +7,13 @@
 ___
 
 ### Installation: 
-Copy the directory *MODX Placeholders* to your *Packages* directory.
 
+1. Manual installation:   
+Copy the directory *MODX Placeholders* to your *Packages* directory.  
 Located at *"Preferences > Browse Packages..."*
+
+2. Lazy installation:  
+Use Sublime's *[Package Control](https://sublime.wbond.net/installation)*. 
 
 ___
   
